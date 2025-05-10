@@ -37,3 +37,41 @@ console.log('this is empty')
  const val =100 
 
  val <=80 ? console.log("less than 80") : console.log("more than 80")
+
+ // break & continue 
+ const map = new  Map ()
+   map.set(1, "one") 
+   map.set(2, "two")
+   console.log(map)
+
+   const obj = {
+      js : "JavaScript",
+      cpp :"C++",
+      py :"python "
+   }
+   for(const key in obj){
+      console.log(`${key} and ${obj[key]}`)
+   }
+
+   // for in loop is used for geting keys 
+
+   const coding = ["python", "ruby", "cpp"]
+
+   // coding.forEach(function (name){
+   //    console.log(name)
+   // })
+
+   // coding.forEach((item)=>{
+   //    console.log(item)
+   // })
+
+   // function print(item){
+   //    console.log(item)
+   // }
+   // coding.forEach(print)
+
+   coding.forEach((item , index ,arr) =>{
+      console.log(item, index , arr)
+   })
+
+   
